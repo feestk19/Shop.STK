@@ -1,0 +1,6 @@
+@ShopSTK.AuthenticationService_HostAddress = http://localhost:5193
+
+GET {{ShopSTK.AuthenticationService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

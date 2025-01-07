@@ -1,14 +1,57 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Back-End", "Back-End", "{F6C43ECF-8B86-4525-80C0-439EF7A61492}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Front-End", "Front-End", "{BF94ADE9-9F00-4B9B-8CE9-AEEE2F0FD703}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopSTK.Web", "ShopSTK.Web\ShopSTK.Web.csproj", "{6FC998FB-F646-4454-9002-DC48B638EDD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopSTK.AuthenticationService", "ShopSTK.AuthenticationService\ShopSTK.AuthenticationService.csproj", "{82698E7D-86A4-4894-A249-54896D28F536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopSTK.ProductService", "ShopSTK.ProductService\ShopSTK.ProductService.csproj", "{1504E5DF-708B-4D6D-B4AE-26872335631C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopSTK.UserService", "ShopSTK.UserService\ShopSTK.UserService.csproj", "{30D5DABF-1954-43A5-BECA-A8B92448602C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopSTK.CartService", "ShopSTK.CartService\ShopSTK.CartService.csproj", "{399C3EA0-E68A-4539-B48F-495677194FAC}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FC998FB-F646-4454-9002-DC48B638EDD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC998FB-F646-4454-9002-DC48B638EDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC998FB-F646-4454-9002-DC48B638EDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC998FB-F646-4454-9002-DC48B638EDD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82698E7D-86A4-4894-A249-54896D28F536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82698E7D-86A4-4894-A249-54896D28F536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82698E7D-86A4-4894-A249-54896D28F536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82698E7D-86A4-4894-A249-54896D28F536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1504E5DF-708B-4D6D-B4AE-26872335631C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1504E5DF-708B-4D6D-B4AE-26872335631C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1504E5DF-708B-4D6D-B4AE-26872335631C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1504E5DF-708B-4D6D-B4AE-26872335631C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30D5DABF-1954-43A5-BECA-A8B92448602C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D5DABF-1954-43A5-BECA-A8B92448602C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D5DABF-1954-43A5-BECA-A8B92448602C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D5DABF-1954-43A5-BECA-A8B92448602C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{399C3EA0-E68A-4539-B48F-495677194FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{399C3EA0-E68A-4539-B48F-495677194FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{399C3EA0-E68A-4539-B48F-495677194FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{399C3EA0-E68A-4539-B48F-495677194FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6FC998FB-F646-4454-9002-DC48B638EDD0} = {BF94ADE9-9F00-4B9B-8CE9-AEEE2F0FD703}
+		{82698E7D-86A4-4894-A249-54896D28F536} = {F6C43ECF-8B86-4525-80C0-439EF7A61492}
+		{1504E5DF-708B-4D6D-B4AE-26872335631C} = {F6C43ECF-8B86-4525-80C0-439EF7A61492}
+		{30D5DABF-1954-43A5-BECA-A8B92448602C} = {F6C43ECF-8B86-4525-80C0-439EF7A61492}
+		{399C3EA0-E68A-4539-B48F-495677194FAC} = {F6C43ECF-8B86-4525-80C0-439EF7A61492}
 	EndGlobalSection
 EndGlobal
